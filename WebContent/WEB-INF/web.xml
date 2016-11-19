@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>LoginDemo</display-name>
+  <welcome-file-list>
+
+    <welcome-file>redirect.jsp</welcome-file>
+
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ServletLogin</display-name>
+    <servlet-name>ServletLogin</servlet-name>
+    <servlet-class>Login.ServletLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletLogin</servlet-name>
+    <url-pattern>/ServletLogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletRegister</display-name>
+    <servlet-name>ServletRegister</servlet-name>
+    <servlet-class>Register.ServletRegister</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletRegister</servlet-name>
+    <url-pattern>/ServletRegister</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CheckCodeImage</display-name>
+    <servlet-name>CheckCodeImage</servlet-name>
+    <servlet-class>Login.CheckCodeImage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckCodeImage</servlet-name>
+    <url-pattern>/CheckCodeImage</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CheckCodeCheck</display-name>
+    <servlet-name>CheckCodeCheck</servlet-name>
+    <servlet-class>Login.CheckCodeCheck</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckCodeCheck</servlet-name>
+    <url-pattern>/CheckCodeCheck</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CookieTime</display-name>
+    <servlet-name>CookieTime</servlet-name>
+    <servlet-class>Login.CookieTime</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CookieTime</servlet-name>
+    <url-pattern>/CookieTime</url-pattern>
+  </servlet-mapping>
+</web-app>
