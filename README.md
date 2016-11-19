@@ -1,2 +1,5 @@
 # java-login
-This is a java web project including login, logout, verification code and remember me.
+
+This is my first java project. A simple web project including login, logout, verification code and remember me.
+
+
